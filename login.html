@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+    <!-- <div class="h-screen bg-gray-100 flex align-middle content-center items-center justify-center">
+        <div class="flex flex-col bg-white mx-auto w-1/4 h-auto p-6 border-b rounded-xl text-center shadow-md">
+              <img src="asset/logo.png" alt="logo" class="w-32 h-32 self-center">
+              <span class="font-bold text-3xl mb-4">Bit Tuts Login</span>
+              <form action="#" class="mb-4">
+                    <input type="text" placeholder="username" class="mb-4 border-0 border-b-2 p-3 w-full">
+                    <input type="text" placeholder="password" class="mb-4 border-0 border-b-2 p-3 w-full">      
+              </form>
+              <button class="bg-blue-600 hover:bg-blue-800 p-3 rounded-md text-white font-bold mb-4">Masuk</button>
+              <span class=" text-xs">Tidak punya akun? Daftar<a href="#"> disini</a></span>
+        </div>
+  </div>
+
+  <div class="pt-32 pb-36 px-4">
+  <div class="flex flex-col justify-center items-center h-[100vh]">
+      <div class="!z-5 relative flex flex-col rounded-[20px] max-w-[300px] bg-white bg-clip-border shadow-3xl shadow-shadow-500 w-full !p-4 3xl:p-![18px] undefined">
+          <div class="h-full w-full">
+              <div class="relative w-full">
+                  <img src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/Nft3.3b3e6a4b3ada7618de6c.png" class="mb-3 h-full w-full rounded-xl 3xl:h-full 3xl:w-full" alt="">
+                  <button class="absolute top-3 right-3 flex items-center justify-center rounded-full bg-white p-2 text-brand-500 hover:cursor-pointer">
+                      <div class="flex h-full w-full items-center justify-center rounded-full text-xl hover:bg-gray-50">
+                          <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z"></path></svg>
+                      </div>
+                  </button>
+              </div>
+              <div class="mb-3 flex items-center justify-between px-1 md:items-start">
+                  <div class="mb-2">
+                      <p class="text-lg font-bold text-navy-700"> Abstract Colors </p>
+                      <p class="mt-1 text-sm font-medium text-gray-600 md:mt-2">By Esthera Jackson </p>
+                  </div>
+                  <div class="flex flex-row-reverse md:mt-2 lg:mt-0">
+                      <span class="z-0 ml-px inline-flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#E0E5F2] text-xs text-navy-700 ">+5</span><span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
+                          <img class="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar1.eeef2af6dfcd3ff23cb8.png" alt="">
+                      </span>
+                      <span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
+                          <img class="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar2.5692c39db4f8c0ea999e.png" alt="">
+                      </span>
+                      <span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
+                          <img class="h-full w-full rounded-full object-cover" src="https://horizon-tailwind-react-git-tailwind-components-horizon-ui.vercel.app/static/media/avatar3.9f646ac5920fa40adf00.png" alt="">
+                      </span>
+                  </div>
+              </div>
+              <div class="flex items-center justify-between md:items-center lg:justify-between ">
+                  <div class="flex">
+                      <p class="!mb-0 text-sm font-bold text-brand-500">Current Bid: 0.91 <span>ETH</span></p>
+                  </div>
+                  <button href="" class="linear rounded-[20px] bg-brand-900 px-4 py-2 text-base font-medium text-white transition duration-200 hover:bg-brand-800 active:bg-brand-700">Place Bid</button>
+              </div>
+          </div>
+      </div>
+      <p class="font-normal text-navy-700 mt-20 mx-auto w-max">Notifications Card component from <a href="https://horizon-ui.com?ref=tailwindcomponents.com" target="_blank" class="text-brand-500 font-bold">Horizon UI Tailwind React</a></p>  
+  </div>
+  </div>
+
+
+<div class="pt-32 pb-32 px-4">
+      <div class="px-6 pt-4 pb-2">
+            <img src="./dist/svg/1.svg" width="20" alt="" class="px-3 mr-2 mb-2">
+            <span class="  rounded-full px-3 py-1 text-sm font-semibold  mr-2 mb-2">#photography</span>
+            <span class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+            <span class="bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+          </div>
+</div>
+
+
+<div class="pt-32 pb-36 px-4">
+      <div class="mb-3 flex items-center justify-between px-1 md:items-start">
+            <div class="mb-2">
+                <p class="text-lg font-bold text-navy-700">BMW M2</p>
+                 <p class="mt-1 text-sm font-medium text-gray-600 md:mt-2">By Esthera Jackson </p> 
+            </div>
+            <div class="flex flex-row-reverse md:mt-2 lg:mt-0">
+                <span class="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81-1.1 109.33 86.73 187.08 183 252.42a16 16 0 0018 0c96.26-65.34 184.09-143.09 183-252.42-.54-52.67-42.32-96.81-95.08-96.81z"></path></svg>
+                </span>
+            </div>
+        </div>
+<div class="px-6 pt-4 pb-2">
+      <span class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            <img src="./dist/svg/1.svg" width="20" alt="" class="">
+            <p class="px-2">5</p>
+            
+      </span>
+      <span class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            <img src="./dist/svg/2.svg" width="20" alt="" class="">
+            <p class="px-2">5</p>
+            
+      </span>
+      <span class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            <img src="./dist/svg/3.svg"  width="20" alt="" class="">
+            <p class="px-2">5</p>
+            
+      </span>
+      <span class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            <img src="./dist/svg/4.svg"  width="55" alt="" class="px-4">
+            <p class="px-2">Sedan</p>
+            
+      </span>
+    </div>
+    <div class="mb-3 flex items-center justify-between px-1 md:items-start">
+          <div class="mb-2">
+              <p class="text-lg font-bold text-navy-700">Daily rate from</p>
+              <p class="mt-1 text-xl font-extrabold text-black md:mt-2">$265</p>
+          </div>
+          <div class="flex flex-row-reverse md:mt-2 lg:mt-0">
+          
+                <button class="mt-4 px-6 py-3 rounded-md bg-pink-600 text-white">read more</button>
+        
+           
+          </div>
+      </div>
+</div> -->
+<div class="mt-64 pb-32 p-2 font-inter grid grid-cols-1 gap-2 md:grid-cols-3 md:p-3 md:gap-3">
+<div class="group transition-all duration-500 relative grid h-full w-full max-w-full flex-col items-end justify-center overflow-hidden  bg-white bg-clip-border text-center text-gray-700">
+    <div class="group-hover:scale-110 transition-all duration-500 absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('/dist/img/1.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+      <div class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tfrom-black/80 via-black/50"></div> 
+    </div>
+    <div class="relative p-6 py-14 px-6 md:px-12">
+        <svg  width="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#22c55e" d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg>
+        <h2 class="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
+            Excellent Service! Car Rent Service!
+        </h2>
+        <h5 class="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-300 antialiased">
+            I have been using Rentaly for my Car Rental needs for over 5 years now. I have never had any problems with their service. Their customer support is always responsive and helpful. I would recommend Rentaly to anyone looking for a reliable Car Rental provider.
+        </h5>
+        <h5 class="mb-4 block font-sans text-lg font-semibold leading-snug tracking-normal text-gray-400 antialiased">- Stepanie Hutchkiss</h5>
+    </div>
+</div>
+<div class="group transition-all duration-500 relative grid h-full w-full max-w-full flex-col items-end justify-center overflow-hidden  bg-white bg-clip-border text-center text-gray-700">
+    <div class="group-hover:scale-110 transition-all duration-500 absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('/dist/img/1.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+      <div class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tfrom-black/80 via-black/50"></div> 
+    </div>
+    <div class="relative p-6 py-14 px-6 md:px-12">
+        <svg  width="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#22c55e" d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg>
+        <h2 class="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
+            Excellent Service! Car Rent Service!
+        </h2>
+        <h5 class="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-300 antialiased">
+            I have been using Rentaly for my Car Rental needs for over 5 years now. I have never had any problems with their service. Their customer support is always responsive and helpful. I would recommend Rentaly to anyone looking for a reliable Car Rental provider.
+        </h5>
+        <h5 class="mb-4 block font-sans text-lg font-semibold leading-snug tracking-normal text-gray-400 antialiased">- Stepanie Hutchkiss</h5>
+    </div>
+</div>
+<div class="group transition-all duration-500 relative grid h-full w-full max-w-full flex-col items-end justify-center overflow-hidden  bg-white bg-clip-border text-center text-gray-700">
+    <div class="group-hover:scale-110 transition-all duration-500 absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('/dist/img/1.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+      <div class="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tfrom-black/80 via-black/50"></div> 
+    </div>
+    <div class="relative p-6 py-14 px-6 md:px-12">
+        <svg  width="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#22c55e" d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg>
+        <h2 class="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
+            Excellent Service! Car Rent Service!
+        </h2>
+        <h5 class="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-300 antialiased">
+            I have been using Rentaly for my Car Rental needs for over 5 years now. I have never had any problems with their service. Their customer support is always responsive and helpful. I would recommend Rentaly to anyone looking for a reliable Car Rental provider.
+        </h5>
+        <h5 class="mb-4 block font-sans text-lg font-semibold leading-snug tracking-normal text-gray-400 antialiased">- Stepanie Hutchkiss</h5>
+    </div>
+</div>
+</div>
+
+
+<div class="mt-64 pb-32 p-2 font-inter grid grid-cols-1 gap-2 md:grid-cols-3 md:p-3 md:gap-3">
+<div class="wrapper antialiased text-gray-900">
+    <div>  
+        <img src="./dist/img/pic-blog-2.jpg" alt=" random imgee" class="w-full object-cover object-center rounded-t-lg shadow-md"> 
+     <div class="relative px-4 -mt-16  ">
+       <div class="bg-white p-6 rounded-lg shadow-lg">
+        <div class="flex items-baseline">
+          <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+            tgl:
+          </span>
+          <div class="ml-2 text-gray-600 uppercase text-xs font-semibold tracking-wider">
+      10-Maret-2023
+      </div>  
+        </div>
+        <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Enjoy Best Travel Experience</h4>
+      <div class="mt-4">
+        <span class="text-sm text-gray-600">Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur.</span>
+      </div>  
+      <div class="mt-4">
+        <span class="text-md font-semibold mb-4">
+        <a href="#" class="text-white
+        bg-green-500 py-3 px-8  hover:shadow-lg hover:opacity-80
+        transition duration-300 ease-in-out">Read More</a></span>
+      </div>
+      </div>
+     </div>
+    </div>
+      </div>
+<div class="wrapper antialiased text-gray-900">
+    <div>  
+        <img src="./dist/img/pic-blog-2.jpg" alt=" random imgee" class="w-full object-cover object-center rounded-t-lg shadow-md"> 
+     <div class="relative px-4 -mt-16  ">
+       <div class="bg-white p-6 rounded-lg shadow-lg">
+        <div class="flex items-baseline">
+          <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+            tgl:
+          </span>
+          <div class="ml-2 text-gray-600 uppercase text-xs font-semibold tracking-wider">
+      10-Maret-2023
+      </div>  
+        </div>
+        <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Enjoy Best Travel Experience</h4>
+      <div class="mt-4">
+        <span class="text-sm text-gray-600">Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur.</span>
+      </div>  
+      <div class="mt-4">
+        <span class="text-md font-semibold mb-4">
+        <a href="#" class="text-white
+        bg-green-500 py-3 px-8  hover:shadow-lg hover:opacity-80
+        transition duration-300 ease-in-out">Read More</a></span>
+      </div>
+      </div>
+     </div>
+    </div>
+      </div>
+<div class="wrapper antialiased text-gray-900">
+    <div>  
+        <img src="./dist/img/pic-blog-2.jpg" alt=" random imgee" class="w-full object-cover object-center rounded-t-lg shadow-md"> 
+     <div class="relative px-4 -mt-16  ">
+       <div class="bg-white p-6 rounded-lg shadow-lg">
+        <div class="flex items-baseline">
+          <span class="bg-teal-200 text-teal-800 text-xs px-2 inline-block rounded-full  uppercase font-semibold tracking-wide">
+            tgl:
+          </span>
+          <div class="ml-2 text-gray-600 uppercase text-xs font-semibold tracking-wider">
+      10-Maret-2023
+      </div>  
+        </div>
+        <h4 class="mt-1 text-xl font-semibold uppercase leading-tight truncate">Enjoy Best Travel Experience</h4>
+      <div class="mt-4">
+        <span class="text-sm text-gray-600">Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit cupidatat labore ad laborum consectetur.</span>
+      </div>  
+      <div class="mt-4">
+        <span class="text-md font-semibold mb-4">
+        <a href="#" class="text-white
+        bg-green-500 py-3 px-8  hover:shadow-lg hover:opacity-80
+        transition duration-300 ease-in-out">Read More</a></span>
+      </div>
+      </div>
+     </div>
+    </div>
+      </div>
+</div>
+
+
+
+
+
+<div class="mt-64 pb-32 p-2 font-inter grid grid-cols-1 gap-2 md:grid-cols-3 md:p-3 md:gap-3">
+    <div class="h-full w-full aspect-[4/7] rounded-lg xl:aspect-[4/7]
+      overflow-hidden group relative transition-all duration-500">
+      <div class="w-full h-full bg-cover bg-center
+      absolute group-hover:scale-110 transition-all duration-500 ">
+            <img src="./dist/img/2.jpg" alt="">
+      </div>
+      <div class="relative p-6 py-14 px-6 md:px-12">
+        <svg  width="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#22c55e" d="M448 296c0 66.3-53.7 120-120 120h-8c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H320c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72zm-256 0c0 66.3-53.7 120-120 120H64c-17.7 0-32-14.3-32-32s14.3-32 32-32h8c30.9 0 56-25.1 56-56v-8H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v32 32 72z"/></svg>
+        <h2 class="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
+            Excellent Service! Car Rent Service!
+        </h2>
+        <h5 class="mb-4 block font-sans text-xl font-semibold leading-snug tracking-normal text-gray-300 antialiased">
+            I have been using Rentaly for my Car Rental needs for over 5 years now. I have never had any problems with their service. Their customer support is always responsive and helpful. I would recommend Rentaly to anyone looking for a reliable Car Rental provider.
+        </h5>
+        <h5 class="mb-4 block font-sans text-lg font-semibold leading-snug tracking-normal text-gray-400 antialiased">- Stepanie Hutchkiss</h5>
+    </div>
+    </div>
+
+    
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="border rounded-lg p-5 h-full shadow-lg">
+<h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Vehicle Type</h3>
+<ul class="w-48 text-sm font-medium text-gray-900 bg-white  border-gray-200 rounded-lg">
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="vue-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="vue-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Car</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="react-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="react-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Van</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="angular-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="angular-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Minibus</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+              Prestige</label>
+        </div>
+    </li>
+</ul>
+</div>
+
+<div class="border rounded-lg p-5 h-full shadow-lg mt-12">
+<h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Car Body Type</h3>
+<ul class="w-48 text-sm font-medium text-gray-900 bg-white  border-gray-200 rounded-lg">
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="vue-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="vue-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Convertible</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="react-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="react-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Coupe</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="angular-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="angular-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Exotic Cars</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hatchback</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Minivan
+            </label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Pickup Truck</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sedan</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sports Car</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Station Wagon</label>
+        </div>
+    </li>
+    <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+        <div class="flex items-center pl-3">
+            <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+            <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">SUV</label>
+        </div>
+    </li>
+</ul>
+</div>
+
+
+<div class="border rounded-lg p-5 h-full mt-12 shadow-lg">
+  <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Car Seats</h3>
+  <ul class="w-48 text-sm font-medium text-gray-900 bg-white  border-gray-200 rounded-lg">
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="vue-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="vue-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">2 seats</label>
+          </div>
+      </li>
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="react-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="react-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">4 seats</label>
+          </div>
+      </li>
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="angular-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="angular-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">6 seats</label>
+          </div>
+      </li>
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                6+ seats</label>
+          </div>
+      </li>
+  </ul>
+  </div>
+<div class="border rounded-lg p-5 h-full mt-12 shadow-lg">
+  <h3 class="mb-4 font-semibold text-gray-900 dark:text-white">Car Engine Capacity (cc)</h3>
+  <ul class="w-48 text-sm font-medium text-gray-900 bg-white  border-gray-200 rounded-lg">
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="vue-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="vue-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">1000 - 2000</label>
+          </div>
+      </li>
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="react-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="react-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">2000 - 4000</label>
+          </div>
+      </li>
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="angular-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="angular-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">4000 - 6000</label>
+          </div>
+      </li>
+      <li class="w-full border-gray-200 rounded-t-lg dark:border-gray-600">
+          <div class="flex items-center pl-3">
+              <input id="laravel-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+              <label for="laravel-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+                6000+</label>
+          </div>
+      </li>
+  </ul>
+  </div>
+
+
+
+
+
+<div class="pt-32 pb-32">
+  <div class="border rounded-lg p-5 h-full">
+    <div class="flex items-center pl-3">
+      <input id="angular-checkbox" type="checkbox" value="" class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500 ">
+      <label for="angular-checkbox" class="w-full py-3 ml-2 text-sm font-medium text-green-900 dark:text-gray-300">Angular</label>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="pt-32 pb-32 px-4">
+  <div class="border rounded-lg p-5 h-full">
+    <h2 class="text-xl font-extrabold font-serif mb-4">Price($)</h2>
+    <span class="inline-block rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+     <p class="font-semibold text-slate-600">MIN <span class="font-extrabold text-black ml-2">0</span></p>
+</span>
+    <span class="inline-block rounded-full px-2 ml-28 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+     <p class="font-semibold text-slate-600">Max <span class="font-extrabold text-black ml-2">2000</span></p>
+</span>
+<div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+  <div class="bg-green-600 h-2.5 rounded-full" style="width: 100%"></div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+<section>
+  <div class="mx-auto  max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="swiper-container !overflow-hidden">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <blockquote class="bg-gray-100 p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt="Dog"
+                src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                class="h-16 w-16 rounded-full object-cover"
+              />
+
+              <div class="text-sm">
+                <p class="font-medium">Excellent Service!</p>
+                <p class="mt-1 text-slate-300">John, Pixar Studio</p>
+              </div>
+            </div>
+
+            <p class="relative mt-4 text-gray-500">
+              <span class="text-xl">&ldquo;</span>
+                  Great support, like i have never seen before. Thanks to the support team, they are very helpfull. This company provide customers great solution, that makes them best.
+              <span class="text-xl">&rdquo;</span>
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="swiper-slide">
+          <blockquote class="bg-gray-100 p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt="Dog"
+                src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                class="h-16 w-16 rounded-full object-cover"
+              />
+
+              <div class="text-sm">
+                <p class="font-medium">Excellent Service!</p>
+                <p class="mt-1 text-slate-300">John, Pixar Studio</p>
+              </div>
+            </div>
+
+            <p class="relative mt-4 text-gray-500">
+              <span class="text-xl">&ldquo;</span>
+                  Great support, like i have never seen before. Thanks to the support team, they are very helpfull. This company provide customers great solution, that makes them best.
+              <span class="text-xl">&rdquo;</span>
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="swiper-slide">
+          <blockquote class="bg-gray-100 p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt="Dog"
+                src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                class="h-16 w-16 rounded-full object-cover"
+              />
+
+              <div class="text-sm">
+                <p class="font-medium">Excellent Service!</p>
+                <p class="mt-1 text-slate-300">John, Pixar Studio</p>
+              </div>
+            </div>
+
+            <p class="relative mt-4 text-gray-500">
+              <span class="text-xl">&ldquo;</span>
+                  Great support, like i have never seen before. Thanks to the support team, they are very helpfull. This company provide customers great solution, that makes them best.
+              <span class="text-xl">&rdquo;</span>
+            </p>
+          </blockquote>
+        </div>
+
+        <div class="swiper-slide">
+          <blockquote class="bg-gray-100 p-8">
+            <div class="flex items-center gap-4">
+              <img
+                alt="Dog"
+                src="https://images.unsplash.com/photo-1508280756091-9bdd7ef1f463?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1832&q=80"
+                class="h-16 w-16 rounded-full object-cover"
+              />
+
+              <div class="text-sm">
+                <p class="font-medium">Excellent Service!</p>
+                <p class="mt-1 text-slate-300">John, Pixar Studio</p>
+              </div>
+            </div>
+
+            <p class="relative mt-4 text-gray-500">
+              <span class="text-xl">&ldquo;</span>
+                  Great support, like i have never seen before. Thanks to the support team, they are very helpfull. This company provide customers great solution, that makes them best.
+              <span class="text-xl">&rdquo;</span>
+            </p>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="swiper-pagination !relative !bottom-0 mt-12"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.swiper-container', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 8,
+      autoplay: {
+        delay: 8000,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1.5,
+        },
+        1024: {
+          slidesPerView: 1,
+        },
+      },
+    })
+  })
+</script>
+
+
+
+
+
+
+<div class="pt-14 pb-32">
+  <a class="flex flex-row items-center justify-start px-4 py-4   capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
+    <div class="rounded mr-3 bg-gray-100 border">
+      <img src="/dist/img/pic-blog-2.jpg" width="40" alt="">
+    </div>
+    <div class="flex-1 flex flex-rowbg-green-100">
+      <div class="flex-1">
+        <h1 class="text-sm font-semibold mb-4">Enjoy Best Travel Experience</h1>
+        <span class="mt-4 ml-4 text-slate-600 font-bold"> 
+        <svg class="float-left" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#16a34a" d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg>
+        June 15, 2022
+        </span>
+      </div>
+      <div class="text-right text-xs text-gray-500">
+        <p>4 min ago</p>
+      </div>
+    </div>
+  </a>
+  <hr>
+  <a class="flex flex-row items-center justify-start px-4 py-4   capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
+    <div class="rounded mr-3 bg-gray-100 border">
+      <img src="/dist/img/pic-blog-2.jpg" width="40" alt="">
+    </div>
+    <div class="flex-1 flex flex-rowbg-green-100">
+      <div class="flex-1">
+        <h1 class="text-sm font-semibold mb-4">Enjoy Best Travel Experience</h1>
+        <span class="mt-4 ml-4 text-slate-600 font-bold"> 
+        <svg class="float-left" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#16a34a" d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg>
+        June 15, 2022
+        </span>
+      </div>
+      <div class="text-right text-xs text-gray-500">
+        <p>4 min ago</p>
+      </div>
+    </div>
+  </a>
+  <hr>
+  <a class="flex flex-row items-center justify-start px-4 py-4   capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
+    <div class="rounded mr-3 bg-gray-100 border">
+      <img src="/dist/img/pic-blog-2.jpg" width="40" alt="">
+    </div>
+    <div class="flex-1 flex flex-rowbg-green-100">
+      <div class="flex-1">
+        <h1 class="text-sm font-semibold mb-4">Enjoy Best Travel Experience</h1>
+        <span class="mt-4 ml-4 text-slate-600 font-bold"> 
+        <svg class="float-left" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#16a34a" d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg>
+        June 15, 2022
+        </span>
+      </div>
+      <div class="text-right text-xs text-gray-500">
+        <p>4 min ago</p>
+      </div>
+    </div>
+  </a>
+  <hr>
+  <a class="flex flex-row items-center justify-start px-4 py-4   capitalize font-medium text-sm tracking-wide bg-white hover:bg-gray-200 transition-all duration-300 ease-in-out" href="#">
+    <div class="rounded mr-3 bg-gray-100 border">
+      <img src="/dist/img/pic-blog-2.jpg" width="40" alt="">
+    </div>
+    <div class="flex-1 flex flex-rowbg-green-100">
+      <div class="flex-1">
+        <h1 class="text-sm font-semibold mb-4">Enjoy Best Travel Experience</h1>
+        <span class="mt-4 ml-4 text-slate-600 font-bold"> 
+        <svg class="float-left" width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#16a34a" d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg>
+        June 15, 2022
+        </span>
+      </div>
+      <div class="text-right text-xs text-gray-500">
+        <p>4 min ago</p>
+      </div>
+    </div>
+  </a>
+  <hr>
+</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
